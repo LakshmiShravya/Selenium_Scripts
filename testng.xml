@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+<test name="Testing">
+     <classes>
+   <!--  <class name="com.bt.oss.srims.SanitySingleScript.AGC_Sanity_TestingEnv"/> -->
+   <class name="com.bt.oss.srims.SanityTestSuite.SingleRequest.CaptivePortal"/>
+  <!--   <class name="com.bt.oss.srims.DiagnosticsTool.Test1_DiagnosticsTool"/> -->
+    
+  <!--  <class name="com.bt.oss.srims.SanityTestSuite.VNF.NSP118_VNF"/> -->
+   <!--  <class name="com.bt.oss.srims.SanityTestSuite.Syslog.NSP97_SyslogAndProfile"/> -->
+    <!--  <class name="com.bt.oss.srims.SanityTestSuite.SaaS.NSP57_SaaSApplicationAndGroup"/> -->
+     </classes>     
+   </test>
+
+</suite>
+
